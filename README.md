@@ -18,8 +18,6 @@ Welcome to **CloudTech Analytics**! This dashboard provides a comprehensive over
 - **Unit Sold Margin:** 325.36%
 - **AOV Margin:** 12.37%
 
----
-
 ## 🔍 Insights & Findings
 
 ### 1️⃣ Sales Performance
@@ -44,15 +42,24 @@ Welcome to **CloudTech Analytics**! This dashboard provides a comprehensive over
   - **Carretera:** $14M
 - Paseo leads in sales, but Amarilla and VTT are also significant contributors to overall revenue.
 
+  **Explanation:** Paseo, VTT, and Velo dominate sales, contributing significantly to overall revenue. Meanwhile, Montana and Carretera underperform, suggesting the need for targeted marketing strategies or product improvements.
+- **Recommendation:** Focus marketing efforts on high-performing products while assessing strategies to improve sales of lower-performing ones.
+
 ### 5️⃣ Sales by Segment
 - The Government sector contributes **$52.50M**, making it the largest revenue-generating segment.
 - Small businesses follow with **$42.42M**, showing strong engagement in the SME market.
 - Enterprise sales stand at **$19.61M**, presenting an opportunity for further expansion.
 
+- - **Explanation:** The Government sector is the primary revenue driver, while the Enterprise segment lags. This could indicate higher contract values in government procurement compared to private enterprises.
+- **Recommendation:** Tailor sales strategies for the enterprise segment to improve profitability by offering customized solutions or competitive pricing.
+
 ### 6️⃣ Monthly Sales Trend
 - The sales trend is dynamic, peaking in **June ($10M)** and **October ($21M)**.
 - Lowest sales occur in **January and February ($7M each)**, indicating potential seasonal fluctuations.
 - A steady increase from March to October suggests effective marketing and sales initiatives during these months.
+
+- - **Explanation:** Sales see a significant rise in March, possibly due to seasonal demand, promotions, or product launches. Conversely, sales drop in April, May, and August, signaling potential demand gaps.
+- **Recommendation:** Investigate seasonal demand fluctuations and optimize promotional campaigns in low-performing months.
 
 ### 7️⃣ Regional Sales Distribution
 - **Top-performing countries:**
@@ -63,6 +70,9 @@ Welcome to **CloudTech Analytics**! This dashboard provides a comprehensive over
   - **Mexico:** $20M
 - The US and Canada dominate the market, but France and Germany are close competitors.
 - Mexico presents an opportunity for deeper market penetration.
+
+- - **Explanation:** North America leads sales, while France and Germany exhibit strong competition. Mexico shows potential growth, requiring further market penetration strategies.
+- **Recommendation:** Strengthen supply chain and distribution channels in top-performing countries while exploring expansion strategies for emerging markets.
 
 ---
 
@@ -84,7 +94,8 @@ Welcome to **CloudTech Analytics**! This dashboard provides a comprehensive over
 - Strengthen marketing efforts in **France and Germany** to close the gap with the US and Canada.
 - Increase penetration in **Mexico**, which holds untapped potential.
 
----
+### **Modeling**
+![Screenshot (125)](https://github.com/user-attachments/assets/28d66997-d01b-41c0-b636-6d97d3fa63a2)
 
 ## 🖩 DAX Measures Used
 Below are the **DAX measures** utilized in this dashboard:
@@ -123,8 +134,6 @@ Unit Sold Margin % = DIVIDE([Total Units Sold] - [Unit Sold PY], [Unit Sold PY],
 -- AOV Margin %
 AOV Margin % = DIVIDE([AOV] - CALCULATE([AOV], SAMEPERIODLASTYEAR(Sales[Date])), CALCULATE([AOV], SAMEPERIODLASTYEAR(Sales[Date])), 0) * 100
 ```
-
----
 
 ## 📈 Conclusion
 The **CloudTech Analytics Dashboard** provides an in-depth look into sales, profit, unit performance, and segmentation. The insights derived highlight strong sales and profit growth but also reveal opportunities for market expansion and seasonal sales optimization. By implementing data-driven strategies, we can continue to scale and maximize business performance.
