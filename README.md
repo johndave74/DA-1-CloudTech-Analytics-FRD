@@ -94,9 +94,6 @@ Welcome to **CloudTech Analytics**! This dashboard provides a comprehensive over
 - Strengthen marketing efforts in **France and Germany** to close the gap with the US and Canada.
 - Increase penetration in **Mexico**, which holds untapped potential.
 
-### **Modeling**
-![Screenshot (125)](https://github.com/user-attachments/assets/28d66997-d01b-41c0-b636-6d97d3fa63a2)
-
 ## 🖩 DAX Measures Used
 Below are the **DAX measures** utilized in this dashboard:
 
